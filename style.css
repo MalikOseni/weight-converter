@@ -1,0 +1,36 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+    font-family: monospace;
+}
+body{
+    background: lightseagreen;
+    min-height: 100dvh;
+    display: grid;
+    place-items: center;
+}
+.container{
+    background: darkgreen;
+    color: white;
+    padding: 20px;
+    text-align: left;
+    border-radius: 10px;
+}
+.header{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.units{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 10px;
+    font-size: 18px;
+}
+.units > input{
+padding: 10px;
+background: rgba(0,0,0,.5);
+color: white;
+font-size: 16px;
+font-weight: 500;
+outline: none;
+border: none;
+}
